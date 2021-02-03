@@ -1,0 +1,18 @@
+{
+  "laser_energy": 1.0,
+  "temperature": 23,
+  "stray": {
+      "pressure": 2e-2,
+      "shotn": 282
+    },
+  "data": [
+    {
+      "pressure": 10,
+      "shotn": 280
+    },
+    {
+      "pressure": 5,
+      "shotn": 281
+    }
+  ]
+}
