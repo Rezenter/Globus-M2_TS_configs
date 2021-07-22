@@ -1,0 +1,38 @@
+{
+  "laser_energy": 0.8,
+  "temperature": 27,
+  "stray": {
+      "pressure": 5.2e-3,
+      "shotn": 434
+    },
+  "data": [
+    {
+      "pressure": 87.0,
+      "shotn": 425
+    },
+    {
+      "pressure": 87.0,
+      "shotn": 426
+    },
+    {
+      "pressure": 87.0,
+      "shotn": 427
+    },
+    {
+      "pressure": 87.0,
+      "shotn": 428
+    },
+    {
+      "pressure": 87.0,
+      "shotn": 429
+    },
+    {
+      "pressure": 87.0,
+      "shotn": 431
+    },
+    {
+      "pressure": 86.8,
+      "shotn": 433
+    }
+  ]
+}
