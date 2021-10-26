@@ -14,7 +14,7 @@
     "triggerDelay": 30,
     "frequency": "3.2",
     "offset": 1050.0,
-    "triggerThreshold": 200.0
+    "triggerThreshold": 100.0
   },
   "connection": {
     "connectionInterval": 1,
