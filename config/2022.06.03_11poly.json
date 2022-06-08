@@ -2,8 +2,20 @@
   "change": "updated first laser shot timestamp",
   "base_config": "2021.10.26_g2-10",
   "adc": {
-    "first_shot": 3.55,
+    "first_shot": 3.634,
     "sync": [
+      {
+        "ch": 0
+      },
+      {
+        "ch": 0
+      },
+      {
+        "ch": 0
+      },
+      {
+        "ch": 0
+      },
       {
         "ch": 0
       },
@@ -498,6 +510,52 @@
           "fast_gain": 2,
           "slow_gain": 8,
           "skip": true
+        }
+      ]
+    },
+    {
+      "ind": 10,
+      "fiber": "10",
+      "delay": 86,
+      "R": 30,
+      "l05":  8.34,
+      "h": 4.5,
+      "channels":[
+        {
+          "adc": 7,
+          "ch": 1,
+          "fast_gain": 2,
+          "slow_gain": 8
+        },
+        {
+          "adc": 7,
+          "ch": 2,
+          "fast_gain": 2,
+          "slow_gain": 4
+        },
+        {
+          "adc": 7,
+          "ch": 3,
+          "fast_gain": 2,
+          "slow_gain": 2
+        },
+        {
+          "adc": 7,
+          "ch": 4,
+          "fast_gain": 2,
+          "slow_gain": 1
+        },
+        {
+          "adc": 7,
+          "ch": 5,
+          "fast_gain": 2,
+          "slow_gain": 1
+        },
+        {
+          "adc": 7,
+          "ch": 6,
+          "fast_gain": 2,
+          "slow_gain": 1
         }
       ]
     }

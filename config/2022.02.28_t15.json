@@ -1,9 +1,24 @@
 {
-  "change": "updated first laser shot timestamp",
-  "base_config": "2021.10.26_g2-10",
+  "change": "added t15 device #34 with Andrey`s program",
+  "base_config": "2021.11.24_g2-10",
   "adc": {
     "first_shot": 3.55,
     "sync": [
+      {
+        "ch": 0
+      },
+      {
+        "ch": 0
+      },
+      {
+        "ch": 0
+      },
+      {
+        "ch": 0
+      },
+      {
+        "ch": 0
+      },
       {
         "ch": 0
       },
@@ -498,6 +513,46 @@
           "fast_gain": 2,
           "slow_gain": 8,
           "skip": true
+        }
+      ]
+    },
+    {
+      "ind": 10,
+      "fiber": "10",
+      "delay": 86,
+      "R": 390,
+      "l05":  8.34,
+      "h": 4.5,
+      "channels":[
+        {
+          "adc": 8,
+          "ch": 1,
+          "fast_gain": 2
+        },
+        {
+          "adc": 8,
+          "ch": 2,
+          "fast_gain": 2
+        },
+        {
+          "adc": 8,
+          "ch": 3,
+          "fast_gain": 2
+        },
+        {
+          "adc": 8,
+          "ch": 4,
+          "fast_gain": 2
+        },
+        {
+          "adc": 8,
+          "ch": 5,
+          "fast_gain": 2
+        },
+        {
+          "adc": 8,
+          "ch": 15,
+          "fast_gain": 2
         }
       ]
     }

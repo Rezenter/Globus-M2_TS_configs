@@ -1,0 +1,78 @@
+[
+  {
+    "ind": 0,
+    "lens_socket": 1,
+    "name": "1A",
+    "R": 591.7,
+    "type": "ceramooptec_half",
+    "half_position": 0
+  },{
+    "ind": 1,
+    "lens_socket": 1,
+    "name": "1B",
+    "R": 581.2,
+    "type": "ceramooptec_half",
+    "half_position": 1
+  },{
+    "ind": 2,
+    "lens_socket": 2,
+    "name": "2",
+    "R": 560.9,
+    "type": "ceramooptec"
+  },{
+    "ind": 3,
+    "lens_socket": 3,
+    "name": "3",
+    "R": 536.2,
+    "type": "ceramooptec"
+  },{
+    "ind": 4,
+    "lens_socket": 4,
+    "name": "4",
+    "R": 512,
+    "type": "ceramooptec"
+  },{
+    "ind": 5,
+    "lens_socket": 5,
+    "name": "5",
+    "R": 488.5,
+    "type": "ceramooptec"
+  },{
+    "ind": 6,
+    "lens_socket": 6,
+    "name": "6",
+    "R": 466.1,
+    "type": "ceramooptec"
+  },{
+    "ind": 7,
+    "lens_socket": 7,
+    "name": "7",
+    "R": 444.8,
+    "type": "ceramooptec"
+  },{
+    "ind": 8,
+    "lens_socket": 8,
+    "name": "8",
+    "R": 423.6,
+    "type": "ceramooptec"
+  },{
+    "ind": 9,
+    "lens_socket": 9,
+    "name": "9",
+    "R": 402.6,
+    "type": "ceramooptec"
+  },{
+    "ind": 10,
+    "lens_socket": 16,
+    "name": "10",
+    "R": 286.8,
+    "type": "ceramooptec"
+  },{
+    "ind": 11,
+    "lens_socket": 14,
+    "name": "VA_LFS",
+    "R": 315.7,
+    "type": "verticalAlignment",
+    "VA_relation": 1
+  }
+]

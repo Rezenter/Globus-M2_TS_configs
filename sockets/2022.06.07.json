@@ -1,0 +1,93 @@
+[
+  {
+    "ind": 0,
+    "lens_socket": 1,
+    "image_h": 5,
+    "scattering_l": 22
+  },{
+    "ind": 1,
+    "lens_socket": 2,
+    "image_h": 5,
+    "scattering_l": 22
+  },{
+    "ind": 2,
+    "lens_socket": 3,
+    "image_h": 5,
+    "scattering_l": 21.5
+  },{
+    "ind": 3,
+    "lens_socket": 4,
+    "image_h": 4.9,
+    "scattering_l": 21
+  },{
+    "ind": 4,
+    "lens_socket": 5,
+    "image_h": 4.9,
+    "scattering_l": 21
+  },{
+    "ind": 5,
+    "lens_socket": 6,
+    "image_h": 4.7,
+    "scattering_l": 20
+  },{
+    "ind": 6,
+    "lens_socket": 7,
+    "image_h": 4.5,
+    "scattering_l": 19.5
+  },{
+    "ind": 7,
+    "lens_socket": 8,
+    "image_h": 4.6,
+    "scattering_l": 19.5
+  },{
+    "ind": 8,
+    "lens_socket": 9,
+    "image_h": 4.5,
+    "scattering_l": 18.5
+  },{
+    "ind": 9,
+    "lens_socket": 10,
+    "image_h": 4.2,
+    "scattering_l": 17.8
+  },{
+    "ind": 10,
+    "lens_socket": 11,
+    "image_h": 4.2,
+    "scattering_l": 17.5
+  },{
+    "ind": 11,
+    "lens_socket": 12,
+    "image_h": 4.2,
+    "scattering_l": 16.5
+  },{
+    "ind": 12,
+    "lens_socket": 13,
+    "image_h": 4,
+    "scattering_l": 16.4
+  },{
+    "ind": 13,
+    "lens_socket": 14,
+    "image_h": 4.1,
+    "scattering_l": 16.2
+  },{
+    "ind": 14,
+    "lens_socket": 15,
+    "image_h": 4,
+    "scattering_l": 15.5
+  },{
+    "ind": 15,
+    "lens_socket": 16,
+    "image_h": 3.9,
+    "scattering_l": 15.3
+  },{
+    "ind": 16,
+    "lens_socket": 17,
+    "image_h": 4,
+    "scattering_l": 15
+  },{
+    "ind": 17,
+    "lens_socket": 18,
+    "image_h": 4,
+    "scattering_l": 15
+  }
+]
