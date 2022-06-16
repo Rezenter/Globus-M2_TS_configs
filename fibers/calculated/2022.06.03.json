@@ -111,11 +111,9 @@
             "scattering_l": 15
         }
     ],
-    "fibers": [
-        {
-            "ind": 0,
+    "fibers": {
+        "1A": {
             "lens_socket": 1,
-            "name": "1A",
             "R": 591.7,
             "type": "ceramooptec_half",
             "half_position": 0,
@@ -125,10 +123,8 @@
             "poloidal_angle_deg": 16.656410187618334,
             "poloidal_length": 21.076898423248853
         },
-        {
-            "ind": 1,
+        "1B": {
             "lens_socket": 1,
-            "name": "1B",
             "R": 581.2,
             "type": "ceramooptec_half",
             "half_position": 1,
@@ -138,10 +134,8 @@
             "poloidal_angle_deg": 16.96635208324061,
             "poloidal_length": 21.042478408190682
         },
-        {
-            "ind": 2,
+        "2": {
             "lens_socket": 2,
-            "name": "2",
             "R": 560.9,
             "type": "ceramooptec",
             "lens_socket_ind": 1,
@@ -150,10 +144,8 @@
             "poloidal_angle_deg": 17.60007804673517,
             "poloidal_length": 20.970185630066485
         },
-        {
-            "ind": 3,
+        "3": {
             "lens_socket": 3,
-            "name": "3",
             "R": 536.2,
             "type": "ceramooptec",
             "lens_socket_ind": 2,
@@ -162,10 +154,8 @@
             "poloidal_angle_deg": 18.439304695351154,
             "poloidal_length": 20.39617396765369
         },
-        {
-            "ind": 4,
+        "4": {
             "lens_socket": 4,
-            "name": "4",
             "R": 512,
             "type": "ceramooptec",
             "lens_socket_ind": 3,
@@ -174,10 +164,8 @@
             "poloidal_angle_deg": 19.34466296693131,
             "poloidal_length": 19.814403496888318
         },
-        {
-            "ind": 5,
+        "5": {
             "lens_socket": 5,
-            "name": "5",
             "R": 488.5,
             "type": "ceramooptec",
             "lens_socket_ind": 4,
@@ -186,10 +174,8 @@
             "poloidal_angle_deg": 20.315249429379183,
             "poloidal_length": 19.693727833833883
         },
-        {
-            "ind": 6,
+        "6": {
             "lens_socket": 6,
-            "name": "6",
             "R": 466.1,
             "type": "ceramooptec",
             "lens_socket_ind": 5,
@@ -198,10 +184,8 @@
             "poloidal_angle_deg": 21.338082581443036,
             "poloidal_length": 18.628991618028564
         },
-        {
-            "ind": 7,
+        "7": {
             "lens_socket": 7,
-            "name": "7",
             "R": 444.8,
             "type": "ceramooptec",
             "lens_socket_ind": 6,
@@ -210,10 +194,8 @@
             "poloidal_angle_deg": 22.413918799086307,
             "poloidal_length": 18.026841950047523
         },
-        {
-            "ind": 8,
+        "8": {
             "lens_socket": 8,
-            "name": "8",
             "R": 423.6,
             "type": "ceramooptec",
             "lens_socket_ind": 7,
@@ -222,10 +204,8 @@
             "poloidal_angle_deg": 23.601793377350013,
             "poloidal_length": 17.868828862028106
         },
-        {
-            "ind": 9,
+        "9": {
             "lens_socket": 9,
-            "name": "9",
             "R": 402.6,
             "type": "ceramooptec",
             "lens_socket_ind": 8,
@@ -234,10 +214,8 @@
             "poloidal_angle_deg": 24.91427574872054,
             "poloidal_length": 16.778373005013943
         },
-        {
-            "ind": 10,
+        "10": {
             "lens_socket": 16,
-            "name": "10",
             "R": 286.8,
             "type": "ceramooptec",
             "lens_socket_ind": 15,
@@ -246,10 +224,8 @@
             "poloidal_angle_deg": 36.25307007260312,
             "poloidal_length": 12.338117661292166
         },
-        {
-            "ind": 11,
+        "VA_LFS": {
             "lens_socket": 14,
-            "name": "VA_LFS",
             "R": 315.7,
             "type": "verticalAlignment",
             "VA_relation": 1,
@@ -259,5 +235,5 @@
             "poloidal_angle_deg": 32.49451579919868,
             "poloidal_length": 13.663774507766632
         }
-    ]
+    }
 }

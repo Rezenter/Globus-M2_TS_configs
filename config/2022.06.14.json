@@ -1,6 +1,8 @@
 {
-  "change": "fixed R",
-  "base_config": "2022.06.01_11poly",
+  "change": "moved some data to rel_calibration. added fibers",
+  "base_config": "2022.06.03_11poly",
+  "type": "configuration",
+  "type version": 1,
   "adc": {
     "first_shot": 3.634,
     "sync": [
@@ -34,7 +36,6 @@
   "preamp":{
     "apdGain": 100,
     "matchingFastGain": 2.5,
-    "charge": 1.602e-19,
     "feedbackResistance": 10000,
     "voltageDivider": true
   },
@@ -42,14 +43,256 @@
     "integrationTime": 30,
     "ch_delay": 2.6
   },
+  "sockets": [
+    {
+        "ind": 0,
+        "lens_socket": 1,
+        "image_h": 5,
+        "scattering_l": 22
+    },
+    {
+        "ind": 1,
+        "lens_socket": 2,
+        "image_h": 5,
+        "scattering_l": 22
+    },
+    {
+        "ind": 2,
+        "lens_socket": 3,
+        "image_h": 5,
+        "scattering_l": 21.5
+    },
+    {
+        "ind": 3,
+        "lens_socket": 4,
+        "image_h": 4.9,
+        "scattering_l": 21
+    },
+    {
+        "ind": 4,
+        "lens_socket": 5,
+        "image_h": 4.9,
+        "scattering_l": 21
+    },
+    {
+        "ind": 5,
+        "lens_socket": 6,
+        "image_h": 4.7,
+        "scattering_l": 20
+    },
+    {
+        "ind": 6,
+        "lens_socket": 7,
+        "image_h": 4.5,
+        "scattering_l": 19.5
+    },
+    {
+        "ind": 7,
+        "lens_socket": 8,
+        "image_h": 4.6,
+        "scattering_l": 19.5
+    },
+    {
+        "ind": 8,
+        "lens_socket": 9,
+        "image_h": 4.5,
+        "scattering_l": 18.5
+    },
+    {
+        "ind": 9,
+        "lens_socket": 10,
+        "image_h": 4.2,
+        "scattering_l": 17.8
+    },
+    {
+        "ind": 10,
+        "lens_socket": 11,
+        "image_h": 4.2,
+        "scattering_l": 17.5
+    },
+    {
+        "ind": 11,
+        "lens_socket": 12,
+        "image_h": 4.2,
+        "scattering_l": 16.5
+    },
+    {
+        "ind": 12,
+        "lens_socket": 13,
+        "image_h": 4,
+        "scattering_l": 16.4
+    },
+    {
+        "ind": 13,
+        "lens_socket": 14,
+        "image_h": 4.1,
+        "scattering_l": 16.2
+    },
+    {
+        "ind": 14,
+        "lens_socket": 15,
+        "image_h": 4,
+        "scattering_l": 15.5
+    },
+    {
+        "ind": 15,
+        "lens_socket": 16,
+        "image_h": 3.9,
+        "scattering_l": 15.3
+    },
+    {
+        "ind": 16,
+        "lens_socket": 17,
+        "image_h": 4,
+        "scattering_l": 15
+    },
+    {
+        "ind": 17,
+        "lens_socket": 18,
+        "image_h": 4,
+        "scattering_l": 15
+    }
+    ],
+  "fibers": {
+    "1A": {
+        "lens_socket": 1,
+        "R": 591.7,
+        "type": "ceramooptec_half",
+        "half_position": 0,
+        "lens_socket_ind": 0,
+        "lens_to_point": 1014.1154818987378,
+        "scattering_angle_deg": 137.79254448326088,
+        "poloidal_angle_deg": 16.656410187618334,
+        "poloidal_length": 21.076898423248853
+    },
+    "1B": {
+        "lens_socket": 1,
+        "R": 581.2,
+        "type": "ceramooptec_half",
+        "half_position": 1,
+        "lens_socket_ind": 0,
+        "lens_to_point": 1006.01773441308,
+        "scattering_angle_deg": 137.37285439098727,
+        "poloidal_angle_deg": 16.96635208324061,
+        "poloidal_length": 21.042478408190682
+    },
+    "2": {
+        "lens_socket": 2,
+        "R": 560.9,
+        "type": "ceramooptec",
+        "lens_socket_ind": 1,
+        "lens_to_point": 990.4800660285148,
+        "scattering_angle_deg": 136.5399787686747,
+        "poloidal_angle_deg": 17.60007804673517,
+        "poloidal_length": 20.970185630066485
+    },
+    "3": {
+        "lens_socket": 3,
+        "R": 536.2,
+        "type": "ceramooptec",
+        "lens_socket_ind": 2,
+        "lens_to_point": 971.7914511717258,
+        "scattering_angle_deg": 135.48657666682033,
+        "poloidal_angle_deg": 18.439304695351154,
+        "poloidal_length": 20.39617396765369
+    },
+    "4": {
+        "lens_socket": 4,
+        "R": 512,
+        "type": "ceramooptec",
+        "lens_socket_ind": 3,
+        "lens_to_point": 953.7213842433466,
+        "scattering_angle_deg": 134.40926166361405,
+        "poloidal_angle_deg": 19.34466296693131,
+        "poloidal_length": 19.814403496888318
+    },
+    "5": {
+        "lens_socket": 5,
+        "R": 488.5,
+        "type": "ceramooptec",
+        "lens_socket_ind": 4,
+        "lens_to_point": 936.4106742251995,
+        "scattering_angle_deg": 133.31732124359903,
+        "poloidal_angle_deg": 20.315249429379183,
+        "poloidal_length": 19.693727833833883
+    },
+    "6": {
+        "lens_socket": 6,
+        "R": 466.1,
+        "type": "ceramooptec",
+        "lens_socket_ind": 5,
+        "lens_to_point": 920.1350021947845,
+        "scattering_angle_deg": 132.23153076801069,
+        "poloidal_angle_deg": 21.338082581443036,
+        "poloidal_length": 18.628991618028564
+    },
+    "7": {
+        "lens_socket": 7,
+        "R": 444.8,
+        "type": "ceramooptec",
+        "lens_socket_ind": 6,
+        "lens_to_point": 904.8680746952347,
+        "scattering_angle_deg": 131.15539818868706,
+        "poloidal_angle_deg": 22.413918799086307,
+        "poloidal_length": 18.026841950047523
+    },
+    "8": {
+        "lens_socket": 8,
+        "R": 423.6,
+        "type": "ceramooptec",
+        "lens_socket_ind": 7,
+        "lens_to_point": 889.8802992086892,
+        "scattering_angle_deg": 130.03883481509263,
+        "poloidal_angle_deg": 23.601793377350013,
+        "poloidal_length": 17.868828862028106
+    },
+    "9": {
+        "lens_socket": 9,
+        "R": 402.6,
+        "type": "ceramooptec",
+        "lens_socket_ind": 8,
+        "lens_to_point": 875.2411395110258,
+        "scattering_angle_deg": 128.88440421563703,
+        "poloidal_angle_deg": 24.91427574872054,
+        "poloidal_length": 16.778373005013943
+    },
+    "10": {
+        "lens_socket": 16,
+        "R": 286.8,
+        "type": "ceramooptec",
+        "lens_socket_ind": 15,
+        "lens_to_point": 798.0449751746193,
+        "scattering_angle_deg": 121.38234677285126,
+        "poloidal_angle_deg": 36.25307007260312,
+        "poloidal_length": 12.338117661292166
+    },
+    "VA_LFS": {
+        "lens_socket": 14,
+        "R": 315.7,
+        "type": "verticalAlignment",
+        "VA_relation": 1,
+        "lens_socket_ind": 13,
+        "lens_to_point": 816.815428001354,
+        "scattering_angle_deg": 123.47849097133168,
+        "poloidal_angle_deg": 32.49451579919868,
+        "poloidal_length": 13.663774507766632
+    }
+    },
+  "laser": [
+    {
+      "role": "main",
+      "E_max": 3,
+      "freq": 330,
+      "wavelength": 1064.5
+    }
+  ],
   "poly": [
     {
       "ind": 0,
       "fiber": "1A",
       "delay": 86,
-      "R": 591.7,
-      "l05":  5.25,
-      "h": 5,
+      "detectors": "S11519-15",
+      "filter_set": "GTS-core_poly1-10",
       "channels":[
         {
           "adc": 0,
@@ -80,13 +323,6 @@
           "ch": 5,
           "fast_gain": 10,
           "slow_gain": 1
-        },
-        {
-          "adc": 3,
-          "ch": 6,
-          "fast_gain": 10,
-          "slow_gain": 8,
-          "skip": true
         }
       ]
     },
@@ -94,9 +330,8 @@
       "ind": 1,
       "fiber": "1B",
       "delay": 86,
-      "R": 581.2,
-      "l05":  5.25,
-      "h": 5,
+      "detectors": "S11519-15",
+      "filter_set": "GTS-core_poly1-10",
       "channels":[
         {
           "adc": 0,
@@ -127,13 +362,6 @@
           "ch": 10,
           "fast_gain": 10,
           "slow_gain": 1
-        },
-        {
-          "adc": 3,
-          "ch": 7,
-          "fast_gain": 10,
-          "slow_gain": 8,
-          "skip": true
         }
       ]
     },
@@ -141,9 +369,8 @@
       "ind": 2,
       "fiber": "2",
       "delay": 86,
-      "R": 560.9,
-      "l05":  10.46,
-      "h": 5,
+      "detectors": "S11519-15",
+      "filter_set": "GTS-core_poly1-10",
       "channels":[
         {
           "adc": 0,
@@ -174,13 +401,6 @@
           "ch": 15,
           "fast_gain": 10,
           "slow_gain": 1
-        },
-        {
-          "adc": 3,
-          "ch": 8,
-          "fast_gain": 10,
-          "slow_gain": 8,
-          "skip": true
         }
       ]
     },
@@ -188,9 +408,8 @@
       "ind": 3,
       "fiber": "3",
       "delay": 86,
-      "R": 536.2,
-      "l05":  10.17,
-      "h": 5,
+      "detectors": "S11519-15",
+      "filter_set": "GTS-core_poly1-10",
       "channels":[
         {
           "adc": 1,
@@ -221,13 +440,6 @@
           "ch": 5,
           "fast_gain": 2,
           "slow_gain": 1
-        },
-        {
-          "adc": 3,
-          "ch": 9,
-          "fast_gain": 2,
-          "slow_gain": 8,
-          "skip": true
         }
       ]
     },
@@ -235,9 +447,8 @@
       "ind": 4,
       "fiber": "4",
       "delay": 86,
-      "R": 512,
-      "l05":  9.88,
-      "h": 4.9,
+      "detectors": "S11519-15",
+      "filter_set": "GTS-core_poly1-10",
       "channels":[
         {
           "adc": 1,
@@ -268,13 +479,6 @@
           "ch": 10,
           "fast_gain": 2,
           "slow_gain": 1
-        },
-        {
-          "adc": 3,
-          "ch": 10,
-          "fast_gain": 2,
-          "slow_gain": 8,
-          "skip": true
         }
       ]
     },
@@ -282,9 +486,8 @@
       "ind": 5,
       "fiber": "5",
       "delay": 86,
-      "R": 488.5,
-      "l05":  9.815,
-      "h": 4.9,
+      "detectors": "S11519-15",
+      "filter_set": "GTS-core_poly1-10",
       "channels":[
         {
           "adc": 1,
@@ -315,13 +518,6 @@
           "ch": 15,
           "fast_gain": 2,
           "slow_gain": 1
-        },
-        {
-          "adc": 3,
-          "ch": 11,
-          "fast_gain": 2,
-          "slow_gain": 8,
-          "skip": true
         }
       ]
     },
@@ -329,9 +525,8 @@
       "ind": 6,
       "fiber": "6",
       "delay": 86,
-      "R": 466.1,
-      "l05":  9.28,
-      "h": 4.7,
+      "detectors": "S11519-15",
+      "filter_set": "GTS-core_poly1-10",
       "channels":[
         {
           "adc": 2,
@@ -362,13 +557,6 @@
           "ch": 5,
           "fast_gain": 2,
           "slow_gain": 1
-        },
-        {
-          "adc": 3,
-          "ch": 12,
-          "fast_gain": 2,
-          "slow_gain": 8,
-          "skip": true
         }
       ]
     },
@@ -376,9 +564,8 @@
       "ind": 7,
       "fiber": "7",
       "delay": 86,
-      "R": 444.8,
-      "l05":  8.97,
-      "h": 4.5,
+      "detectors": "S11519-15",
+      "filter_set": "GTS-core_poly1-10",
       "channels":[
         {
           "adc": 2,
@@ -409,13 +596,6 @@
           "ch": 10,
           "fast_gain": 2,
           "slow_gain": 1
-        },
-        {
-          "adc": 3,
-          "ch": 13,
-          "fast_gain": 2,
-          "slow_gain": 8,
-          "skip": true
         }
       ]
     },
@@ -423,9 +603,8 @@
       "ind": 8,
       "fiber": "8",
       "delay": 86,
-      "R": 423.6,
-      "l05":  8.88,
-      "h": 4.6,
+      "detectors": "S11519-15",
+      "filter_set": "GTS-core_poly1-10",
       "channels":[
         {
           "adc": 2,
@@ -456,13 +635,6 @@
           "ch": 15,
           "fast_gain": 2,
           "slow_gain": 1
-        },
-        {
-          "adc": 3,
-          "ch": 14,
-          "fast_gain": 2,
-          "slow_gain": 8,
-          "skip": true
         }
       ]
     },
@@ -470,9 +642,8 @@
       "ind": 9,
       "fiber": "9",
       "delay": 86,
-      "R": 402.6,
-      "l05":  8.34,
-      "h": 4.5,
+      "detectors": "S11519-15",
+      "filter_set": "GTS-core_poly1-10",
       "channels":[
         {
           "adc": 3,
@@ -503,13 +674,6 @@
           "ch": 5,
           "fast_gain": 2,
           "slow_gain": 1
-        },
-        {
-          "adc": 3,
-          "ch": 15,
-          "fast_gain": 2,
-          "slow_gain": 8,
-          "skip": true
         }
       ]
     },
@@ -517,9 +681,8 @@
       "ind": 10,
       "fiber": "10",
       "delay": 86,
-      "R": 286.8,
-      "l05":  8.34,
-      "h": 4.5,
+      "detectors": "S11519-15",
+      "filter_set": "GTS-core_poly11",
       "channels":[
         {
           "adc": 7,
