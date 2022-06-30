@@ -1,12 +1,18 @@
 {
+  "type": "raman scattering calibration log",
+  "version": 1,
   "laser_energy": 1.6,
   "temperature": 21.5,
   "config": "2022.06.21_!correctedGains",
+  "spectral": "2022.06.28",
   "stray": {
       "pressure": 3e-2,
       "glob": 2e-2,
       "shotn": [
         519
+      ],
+      "ophir": [
+        353
       ]
     },
   "data": [
@@ -16,12 +22,20 @@
         513,
         514,
         515
+      ],
+      "ophir": [
+        347,
+        348,
+        349
       ]
     },
     {
       "pressure": 89.7,
       "shotn": [
         516
+      ],
+      "ophir": [
+        350
       ]
     },
     {
@@ -29,6 +43,9 @@
       "glob": 55,
       "shotn": [
         517
+      ],
+      "ophir": [
+        351
       ]
     },
     {
@@ -36,6 +53,9 @@
       "glob": 32,
       "shotn": [
         518
+      ],
+      "ophir": [
+        352
       ]
     }
   ]
