@@ -156,7 +156,7 @@
   "fibers": {
     "1A": {
         "lens_socket": 1,
-        "R": 592,
+        "R": 591.7,
         "type": "ceramooptec_half",
         "half_position": 0,
         "lens_socket_ind": 0,
@@ -167,7 +167,7 @@
     },
     "1B": {
         "lens_socket": 1,
-        "R": 582,
+        "R": 581.2,
         "type": "ceramooptec_half",
         "half_position": 1,
         "lens_socket_ind": 0,
@@ -178,7 +178,7 @@
     },
     "2": {
         "lens_socket": 2,
-        "R": 563,
+        "R": 560.9,
         "type": "ceramooptec",
         "lens_socket_ind": 1,
         "lens_to_point": 990.4800660285148,
@@ -188,7 +188,7 @@
     },
     "3": {
         "lens_socket": 3,
-        "R": 538,
+        "R": 536.2,
         "type": "ceramooptec",
         "lens_socket_ind": 2,
         "lens_to_point": 971.7914511717258,
@@ -198,7 +198,7 @@
     },
     "4": {
         "lens_socket": 4,
-        "R": 514,
+        "R": 512,
         "type": "ceramooptec",
         "lens_socket_ind": 3,
         "lens_to_point": 953.7213842433466,
@@ -208,7 +208,7 @@
     },
     "5": {
         "lens_socket": 5,
-        "R": 490,
+        "R": 488.5,
         "type": "ceramooptec",
         "lens_socket_ind": 4,
         "lens_to_point": 936.4106742251995,
@@ -218,7 +218,7 @@
     },
     "6": {
         "lens_socket": 6,
-        "R": 468,
+        "R": 466.1,
         "type": "ceramooptec",
         "lens_socket_ind": 5,
         "lens_to_point": 920.1350021947845,
@@ -228,7 +228,7 @@
     },
     "7": {
         "lens_socket": 7,
-        "R": 446,
+        "R": 444.8,
         "type": "ceramooptec",
         "lens_socket_ind": 6,
         "lens_to_point": 904.8680746952347,
@@ -238,7 +238,7 @@
     },
     "8": {
         "lens_socket": 8,
-        "R": 425,
+        "R": 423.6,
         "type": "ceramooptec",
         "lens_socket_ind": 7,
         "lens_to_point": 889.8802992086892,
@@ -248,7 +248,7 @@
     },
     "9": {
         "lens_socket": 9,
-        "R": 404,
+        "R": 402.6,
         "type": "ceramooptec",
         "lens_socket_ind": 8,
         "lens_to_point": 875.2411395110258,
@@ -258,7 +258,7 @@
     },
     "10": {
         "lens_socket": 16,
-        "R": 288,
+        "R": 286.8,
         "type": "ceramooptec",
         "lens_socket_ind": 15,
         "lens_to_point": 798.0449751746193,
@@ -268,7 +268,7 @@
     },
     "VA_LFS": {
         "lens_socket": 14,
-        "R": 318,
+        "R": 315.7,
         "type": "verticalAlignment",
         "VA_relation": 1,
         "lens_socket_ind": 13,
@@ -292,43 +292,37 @@
       "fiber": "1A",
       "delay": 86,
       "detectors": "S11519-15",
-      "filter_set": "GTS-core_poly11",
+      "filter_set": "GTS-core_poly1-10",
       "channels":[
         {
           "adc": 0,
           "ch": 1,
           "fast_gain": 10,
-          "slow_gain": 64
+          "slow_gain": 8
         },
         {
           "adc": 0,
           "ch": 2,
           "fast_gain": 10,
-          "slow_gain": 64
+          "slow_gain": 4
         },
         {
           "adc": 0,
           "ch": 3,
           "fast_gain": 10,
-          "slow_gain": 34
+          "slow_gain": 2
         },
         {
           "adc": 0,
           "ch": 4,
           "fast_gain": 10,
-          "slow_gain": 16
+          "slow_gain": 1
         },
         {
           "adc": 0,
           "ch": 5,
           "fast_gain": 10,
-          "slow_gain": 8
-        },
-        {
-          "adc": 3,
-          "ch": 6,
-          "fast_gain": 10,
-          "slow_gain": 4
+          "slow_gain": 1
         }
       ]
     },
@@ -379,9 +373,9 @@
       "filter_set": "GTS-core_poly1-10",
       "channels":[
         {
-          "adc": 0,
+          "adc": 4,
           "ch": 11,
-          "fast_gain": 10,
+          "fast_gain": 2,
           "slow_gain": 8
         },
         {
@@ -688,37 +682,43 @@
       "fiber": "10",
       "delay": 86,
       "detectors": "S11519-15",
-      "filter_set": "GTS-core_poly1-10",
+      "filter_set": "GTS-core_poly11",
       "channels":[
         {
-          "adc": 4,
+          "adc": 7,
           "ch": 1,
-          "fast_gain": 2,
+          "fast_gain": 10,
+          "slow_gain": 64
+        },
+        {
+          "adc": 7,
+          "ch": 2,
+          "fast_gain": 10,
+          "slow_gain": 64
+        },
+        {
+          "adc": 7,
+          "ch": 3,
+          "fast_gain": 10,
+          "slow_gain": 34
+        },
+        {
+          "adc": 7,
+          "ch": 4,
+          "fast_gain": 10,
+          "slow_gain": 16
+        },
+        {
+          "adc": 7,
+          "ch": 5,
+          "fast_gain": 10,
           "slow_gain": 8
         },
         {
-          "adc": 4,
-          "ch": 2,
-          "fast_gain": 2,
+          "adc": 7,
+          "ch": 6,
+          "fast_gain": 10,
           "slow_gain": 4
-        },
-        {
-          "adc": 4,
-          "ch": 3,
-          "fast_gain": 2,
-          "slow_gain": 2
-        },
-        {
-          "adc": 4,
-          "ch": 4,
-          "fast_gain": 2,
-          "slow_gain": 1
-        },
-        {
-          "adc": 4,
-          "ch": 5,
-          "fast_gain": 2,
-          "slow_gain": 1
         }
       ]
     }
