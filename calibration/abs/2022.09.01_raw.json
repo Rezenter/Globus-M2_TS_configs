@@ -1,0 +1,25 @@
+{
+  "type": "raman scattering calibration log",
+  "version": 1,
+  "laser_energy": 1.9,
+  "temperature": 24.0,
+  "config": "0_2022.09.01_polySwap_debug",
+  "spectral": "2022.09.01",
+  "stray": {
+      "pressure": 3e-2,
+      "glob": 2e-2,
+      "shotn": [
+        530
+      ],
+      "ophir": []
+    },
+  "data": [
+    {
+      "pressure": 96.7,
+      "shotn": [
+        529
+      ],
+      "ophir": []
+    }
+  ]
+}
