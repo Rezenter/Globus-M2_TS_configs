@@ -35,12 +35,6 @@
       }
     ]
   },
-  "process": {
-    "threads": 8
-  },
-  "experiment": {
-    "eventCount": 0
-  },
   "caen": {
     "recordLength": 1024,
     "triggerDelay": 30,
