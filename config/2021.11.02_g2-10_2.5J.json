@@ -1,0 +1,515 @@
+{
+  "change": "increased delay due to additional fiber",
+  "base_config": "2021.10.26_g2-10",
+  "type version": 2,
+  "laser": [
+    {
+      "role": "main",
+      "E_max": 3,
+      "freq": 330,
+      "wavelength": 1064.5,
+      "E": 2.5
+    }
+  ],
+  "adc": {
+    "first_shot": 3.61,
+    "sync": [
+      {
+        "ch": 0
+      },
+      {
+        "ch": 0
+      },
+      {
+        "ch": 0
+      },
+      {
+        "ch": 0
+      }
+    ],
+    "prehistorySep": 5
+  },
+  "preamp":{
+    "apdGain": 100,
+    "matchingFastGain": 2.5,
+    "charge": 1.602e-19,
+    "feedbackResistance": 10000,
+    "voltageDivider": true
+  },
+  "common": {
+    "integrationTime": 30,
+    "ch_delay": 2.6
+  },
+  "poly": [
+    {
+      "ind": 0,
+      "fiber": "1A",
+      "delay": 86,
+      "R": 600.5,
+      "l05":  5.25,
+      "h": 5,
+      "channels":[
+        {
+          "adc": 0,
+          "ch": 1,
+          "fast_gain": 10,
+          "slow_gain": 8
+        },
+        {
+          "adc": 0,
+          "ch": 2,
+          "fast_gain": 10,
+          "slow_gain": 4
+        },
+        {
+          "adc": 0,
+          "ch": 3,
+          "fast_gain": 10,
+          "slow_gain": 2
+        },
+        {
+          "adc": 0,
+          "ch": 4,
+          "fast_gain": 10,
+          "slow_gain": 1
+        },
+        {
+          "adc": 0,
+          "ch": 5,
+          "fast_gain": 10,
+          "slow_gain": 1
+        },
+        {
+          "adc": 3,
+          "ch": 6,
+          "fast_gain": 10,
+          "slow_gain": 8,
+          "skip": true
+        }
+      ]
+    },
+    {
+      "ind": 1,
+      "fiber": "1B",
+      "delay": 86,
+      "R": 590,
+      "l05":  5.25,
+      "h": 5,
+      "channels":[
+        {
+          "adc": 0,
+          "ch": 6,
+          "fast_gain": 10,
+          "slow_gain": 8
+        },
+        {
+          "adc": 0,
+          "ch": 7,
+          "fast_gain": 10,
+          "slow_gain": 4
+        },
+        {
+          "adc": 0,
+          "ch": 8,
+          "fast_gain": 10,
+          "slow_gain": 2
+        },
+        {
+          "adc": 0,
+          "ch": 9,
+          "fast_gain": 10,
+          "slow_gain": 1
+        },
+        {
+          "adc": 0,
+          "ch": 10,
+          "fast_gain": 10,
+          "slow_gain": 1
+        },
+        {
+          "adc": 3,
+          "ch": 7,
+          "fast_gain": 10,
+          "slow_gain": 8,
+          "skip": true
+        }
+      ]
+    },
+    {
+      "ind": 2,
+      "fiber": "2",
+      "delay": 86,
+      "R": 570,
+      "l05":  10.46,
+      "h": 5,
+      "channels":[
+        {
+          "adc": 0,
+          "ch": 11,
+          "fast_gain": 10,
+          "slow_gain": 8
+        },
+        {
+          "adc": 0,
+          "ch": 12,
+          "fast_gain": 10,
+          "slow_gain": 4
+        },
+        {
+          "adc": 0,
+          "ch": 13,
+          "fast_gain": 10,
+          "slow_gain": 2
+        },
+        {
+          "adc": 0,
+          "ch": 14,
+          "fast_gain": 10,
+          "slow_gain": 1
+        },
+        {
+          "adc": 0,
+          "ch": 15,
+          "fast_gain": 10,
+          "slow_gain": 1
+        },
+        {
+          "adc": 3,
+          "ch": 8,
+          "fast_gain": 10,
+          "slow_gain": 8,
+          "skip": true
+        }
+      ]
+    },
+    {
+      "ind": 3,
+      "fiber": "3",
+      "delay": 86,
+      "R": 545,
+      "l05":  10.17,
+      "h": 5,
+      "channels":[
+        {
+          "adc": 1,
+          "ch": 1,
+          "fast_gain": 2,
+          "slow_gain": 8
+        },
+        {
+          "adc": 1,
+          "ch": 2,
+          "fast_gain": 2,
+          "slow_gain": 4
+        },
+        {
+          "adc": 1,
+          "ch": 3,
+          "fast_gain": 2,
+          "slow_gain": 2
+        },
+        {
+          "adc": 1,
+          "ch": 4,
+          "fast_gain": 2,
+          "slow_gain": 1
+        },
+        {
+          "adc": 1,
+          "ch": 5,
+          "fast_gain": 2,
+          "slow_gain": 1
+        },
+        {
+          "adc": 3,
+          "ch": 9,
+          "fast_gain": 2,
+          "slow_gain": 8,
+          "skip": true
+        }
+      ]
+    },
+    {
+      "ind": 4,
+      "fiber": "4",
+      "delay": 86,
+      "R": 521,
+      "l05":  9.88,
+      "h": 4.9,
+      "channels":[
+        {
+          "adc": 1,
+          "ch": 6,
+          "fast_gain": 2,
+          "slow_gain": 8
+        },
+        {
+          "adc": 1,
+          "ch": 7,
+          "fast_gain": 2,
+          "slow_gain": 4
+        },
+        {
+          "adc": 1,
+          "ch": 8,
+          "fast_gain": 2,
+          "slow_gain": 2
+        },
+        {
+          "adc": 1,
+          "ch": 9,
+          "fast_gain": 2,
+          "slow_gain": 1
+        },
+        {
+          "adc": 1,
+          "ch": 10,
+          "fast_gain": 2,
+          "slow_gain": 1
+        },
+        {
+          "adc": 3,
+          "ch": 10,
+          "fast_gain": 2,
+          "slow_gain": 8,
+          "skip": true
+        }
+      ]
+    },
+    {
+      "ind": 5,
+      "fiber": "5",
+      "delay": 86,
+      "R": 497,
+      "l05":  9.815,
+      "h": 4.9,
+      "channels":[
+        {
+          "adc": 1,
+          "ch": 11,
+          "fast_gain": 2,
+          "slow_gain": 8
+        },
+        {
+          "adc": 1,
+          "ch": 12,
+          "fast_gain": 2,
+          "slow_gain": 4
+        },
+        {
+          "adc": 1,
+          "ch": 13,
+          "fast_gain": 2,
+          "slow_gain": 2
+        },
+        {
+          "adc": 1,
+          "ch": 14,
+          "fast_gain": 2,
+          "slow_gain": 1
+        },
+        {
+          "adc": 1,
+          "ch": 15,
+          "fast_gain": 2,
+          "slow_gain": 1
+        },
+        {
+          "adc": 3,
+          "ch": 11,
+          "fast_gain": 2,
+          "slow_gain": 8,
+          "skip": true
+        }
+      ]
+    },
+    {
+      "ind": 6,
+      "fiber": "6",
+      "delay": 86,
+      "R": 474,
+      "l05":  9.28,
+      "h": 4.7,
+      "channels":[
+        {
+          "adc": 2,
+          "ch": 1,
+          "fast_gain": 2,
+          "slow_gain": 8
+        },
+        {
+          "adc": 2,
+          "ch": 2,
+          "fast_gain": 2,
+          "slow_gain": 4
+        },
+        {
+          "adc": 2,
+          "ch": 3,
+          "fast_gain": 2,
+          "slow_gain": 2
+        },
+        {
+          "adc": 2,
+          "ch": 4,
+          "fast_gain": 2,
+          "slow_gain": 1
+        },
+        {
+          "adc": 2,
+          "ch": 5,
+          "fast_gain": 2,
+          "slow_gain": 1
+        },
+        {
+          "adc": 3,
+          "ch": 12,
+          "fast_gain": 2,
+          "slow_gain": 8,
+          "skip": true
+        }
+      ]
+    },
+    {
+      "ind": 7,
+      "fiber": "7",
+      "delay": 86,
+      "R": 453,
+      "l05":  8.97,
+      "h": 4.5,
+      "channels":[
+        {
+          "adc": 2,
+          "ch": 6,
+          "fast_gain": 2,
+          "slow_gain": 8
+        },
+        {
+          "adc": 2,
+          "ch": 7,
+          "fast_gain": 2,
+          "slow_gain": 4
+        },
+        {
+          "adc": 2,
+          "ch": 8,
+          "fast_gain": 2,
+          "slow_gain": 2
+        },
+        {
+          "adc": 2,
+          "ch": 9,
+          "fast_gain": 2,
+          "slow_gain": 1
+        },
+        {
+          "adc": 2,
+          "ch": 10,
+          "fast_gain": 2,
+          "slow_gain": 1
+        },
+        {
+          "adc": 3,
+          "ch": 13,
+          "fast_gain": 2,
+          "slow_gain": 8,
+          "skip": true
+        }
+      ]
+    },
+    {
+      "ind": 8,
+      "fiber": "8",
+      "delay": 86,
+      "R": 431,
+      "l05":  8.88,
+      "h": 4.6,
+      "channels":[
+        {
+          "adc": 2,
+          "ch": 11,
+          "fast_gain": 2,
+          "slow_gain": 8
+        },
+        {
+          "adc": 2,
+          "ch": 12,
+          "fast_gain": 2,
+          "slow_gain": 4
+        },
+        {
+          "adc": 2,
+          "ch": 13,
+          "fast_gain": 2,
+          "slow_gain": 2
+        },
+        {
+          "adc": 2,
+          "ch": 14,
+          "fast_gain": 2,
+          "slow_gain": 1
+        },
+        {
+          "adc": 2,
+          "ch": 15,
+          "fast_gain": 2,
+          "slow_gain": 1
+        },
+        {
+          "adc": 3,
+          "ch": 14,
+          "fast_gain": 2,
+          "slow_gain": 8,
+          "skip": true
+        }
+      ]
+    },
+    {
+      "ind": 9,
+      "fiber": "9",
+      "delay": 86,
+      "R": 410,
+      "l05":  8.34,
+      "h": 4.5,
+      "channels":[
+        {
+          "adc": 3,
+          "ch": 1,
+          "fast_gain": 2,
+          "slow_gain": 8
+        },
+        {
+          "adc": 3,
+          "ch": 2,
+          "fast_gain": 2,
+          "slow_gain": 4
+        },
+        {
+          "adc": 3,
+          "ch": 3,
+          "fast_gain": 2,
+          "slow_gain": 2
+        },
+        {
+          "adc": 3,
+          "ch": 4,
+          "fast_gain": 2,
+          "slow_gain": 1
+        },
+        {
+          "adc": 3,
+          "ch": 5,
+          "fast_gain": 2,
+          "slow_gain": 1
+        },
+        {
+          "adc": 3,
+          "ch": 15,
+          "fast_gain": 2,
+          "slow_gain": 8,
+          "skip": true
+        }
+      ]
+    }
+  ]
+}
