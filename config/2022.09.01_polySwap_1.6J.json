@@ -1,8 +1,8 @@
 {
-  "change": "added section for slow ADC",
-  "base_config": "2022.11.25_1.6J_noP3Ch3",
+  "change": "corrected slow gains",
+  "base_config": "2022.06.14",
   "type": "configuration",
-  "type version": 3,
+  "type version": 2,
   "adc": {
     "first_shot": 3.634,
     "sync": [
@@ -311,7 +311,7 @@
           "adc": 0,
           "ch": 3,
           "fast_gain": 10,
-          "slow_gain": 32
+          "slow_gain": 34
         },
         {
           "adc": 0,
@@ -434,8 +434,7 @@
           "adc": 1,
           "ch": 3,
           "fast_gain": 2,
-          "slow_gain": 2,
-          "skip": true
+          "slow_gain": 2
         },
         {
           "adc": 1,
@@ -721,275 +720,6 @@
           "ch": 5,
           "fast_gain": 2,
           "slow_gain": 1
-        }
-      ]
-    }
-  ],
-  "slow": [
-    {
-      "ip": "192.168.10.50",
-      "channels": [
-        {
-          "sync": true
-        },
-        {
-          "poly": 0,
-          "ch": 0
-        },
-        {
-          "poly": 0,
-          "ch": 1
-        },
-        {
-          "poly": 0,
-          "ch": 2
-        },
-        {
-          "poly": 0,
-          "ch": 3
-        },
-        {
-          "poly": 0,
-          "ch": 4
-        },
-        {
-          "poly": 1,
-          "ch": 0
-        },
-        {
-          "poly": 1,
-          "ch": 1
-        },
-        {
-          "poly": 1,
-          "ch": 2
-        },
-        {
-          "poly": 1,
-          "ch": 3
-        },
-        {
-          "poly": 1,
-          "ch": 4
-        },
-        {
-          "poly": 2,
-          "ch": 0
-        },
-        {
-          "poly": 2,
-          "ch": 1
-        },
-        {
-          "poly": 2,
-          "ch": 2
-        },
-        {
-          "poly": 2,
-          "ch": 3
-        },
-        {
-          "poly": 2,
-          "ch": 4
-        }
-      ]
-    },
-    {
-      "ip": "192.168.10.51",
-      "channels": [
-        {
-          "sync": true
-        },
-        {
-          "poly": 3,
-          "ch": 0
-        },
-        {
-          "poly": 3,
-          "ch": 1
-        },
-        {
-          "poly": 3,
-          "ch": 2
-        },
-        {
-          "poly": 3,
-          "ch": 3
-        },
-        {
-          "poly": 3,
-          "ch": 4
-        },
-        {
-          "poly": 4,
-          "ch": 0
-        },
-        {
-          "poly": 4,
-          "ch": 1
-        },
-        {
-          "poly": 4,
-          "ch": 2
-        },
-        {
-          "poly": 4,
-          "ch": 3
-        },
-        {
-          "poly": 4,
-          "ch": 4
-        },
-        {
-          "poly": 10,
-          "ch": 0
-        },
-        {
-          "poly": 10,
-          "ch": 1
-        },
-        {
-          "poly": 10,
-          "ch": 2
-        },
-        {
-          "poly": 10,
-          "ch": 3
-        },
-        {
-          "poly": 10,
-          "ch": 4
-        }
-      ]
-    },
-    {
-      "ip": "192.168.10.52",
-      "channels": [
-        {
-          "sync": true
-        },
-        {
-          "poly": 5,
-          "ch": 0
-        },
-        {
-          "poly": 5,
-          "ch": 1
-        },
-        {
-          "poly": 5,
-          "ch": 2
-        },
-        {
-          "poly": 5,
-          "ch": 3
-        },
-        {
-          "poly": 5,
-          "ch": 4
-        },
-        {
-          "poly": 6,
-          "ch": 0
-        },
-        {
-          "poly": 6,
-          "ch": 1
-        },
-        {
-          "poly": 6,
-          "ch": 2
-        },
-        {
-          "poly": 6,
-          "ch": 3
-        },
-        {
-          "poly": 6,
-          "ch": 4
-        },
-        {
-          "poly": 7,
-          "ch": 0
-        },
-        {
-          "poly": 7,
-          "ch": 1
-        },
-        {
-          "poly": 7,
-          "ch": 2
-        },
-        {
-          "poly": 7,
-          "ch": 3
-        },
-        {
-          "poly": 7,
-          "ch": 4
-        }
-      ]
-    },
-    {
-      "ip": "192.168.10.53",
-      "channels": [
-        {
-          "sync": true
-        },
-        {
-          "poly": 8,
-          "ch": 0
-        },
-        {
-          "poly": 8,
-          "ch": 1
-        },
-        {
-          "poly": 8,
-          "ch": 2
-        },
-        {
-          "poly": 8,
-          "ch": 3
-        },
-        {
-          "poly": 8,
-          "ch": 4
-        },
-        {
-          "poly": 9,
-          "ch": 0
-        },
-        {
-          "poly": 9,
-          "ch": 1
-        },
-        {
-          "poly": 9,
-          "ch": 2
-        },
-        {
-          "poly": 9,
-          "ch": 3
-        },
-        {
-          "poly": 9,
-          "ch": 4
-        },
-        {
-          "nc": true
-        },
-        {
-          "nc": true
-        },
-        {
-          "nc": true
-        },
-        {
-          "nc": true
-        },
-        {
-          "nc": true
         }
       ]
     }
