@@ -1,0 +1,43 @@
+{
+  "type": "raman scattering calibration log",
+  "version": 1,
+  "laser_energy": 1.6,
+  "laser_frequency": 330,
+  "temperature": 19.1,
+  "polar": true,
+  "config": "2023.01.16_G10",
+  "spectral": "2023.01.16_G10",
+  "stray": {
+      "pressure": 1e-2,
+      "glob": 1e-2,
+      "shotn": [
+        771,
+        772,
+        773,
+        774
+      ],
+      "ophir": [
+        372,
+        373,
+        374,
+        375
+      ]
+    },
+  "data": [
+    {
+      "pressure": 91.7,
+      "shotn": [
+        759,
+        760,
+        761,
+        762
+      ],
+      "ophir": [
+        359,
+        360,
+        361,
+        362
+      ]
+    }
+  ]
+}

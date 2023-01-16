@@ -3,7 +3,7 @@
   "version": 1,
   "laser_energy": 1.9,
   "temperature": 24.0,
-  "config": "0_2022.09.01_polySwap_debug",
+  "config": "2022.09.01_polySwap",
   "spectral": "2022.09.01",
   "stray": {
       "pressure": 3e-2,
