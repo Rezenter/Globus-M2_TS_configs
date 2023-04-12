@@ -40,7 +40,7 @@
     "voltageDivider": true
   },
   "common": {
-    "integrationTime": 150,
+    "integrationTime": 30,
     "ch_delay": 2.6,
     "polarizer": true
   },
@@ -292,7 +292,7 @@
     {
       "ind": 0,
       "fiber": "1A",
-      "delay": 10,
+      "delay": 84,
       "detectors": "S11519-15",
       "filter_set": "GTS-core_poly11",
       "channels":[
@@ -337,7 +337,7 @@
     {
       "ind": 1,
       "fiber": "1B",
-      "delay": 10,
+      "delay": 84,
       "detectors": "S11519-15",
       "filter_set": "GTS-core_poly1-10",
       "channels":[
@@ -376,7 +376,7 @@
     {
       "ind": 2,
       "fiber": "2",
-      "delay": 10,
+      "delay": 84,
       "detectors": "S11519-15",
       "filter_set": "GTS-core_poly1-10",
       "channels":[
@@ -415,7 +415,7 @@
     {
       "ind": 3,
       "fiber": "3",
-      "delay": 10,
+      "delay": 84,
       "detectors": "S11519-15",
       "filter_set": "GTS-core_poly1-10",
       "channels":[
@@ -454,7 +454,7 @@
     {
       "ind": 4,
       "fiber": "4",
-      "delay": 10,
+      "delay": 84,
       "detectors": "S11519-15",
       "filter_set": "GTS-core_poly1-10",
       "channels":[
@@ -493,7 +493,7 @@
     {
       "ind": 5,
       "fiber": "5",
-      "delay": 10,
+      "delay": 84,
       "detectors": "S11519-15",
       "filter_set": "GTS-core_poly1-10",
       "channels":[
@@ -532,7 +532,7 @@
     {
       "ind": 6,
       "fiber": "6",
-      "delay": 10,
+      "delay": 84,
       "detectors": "S11519-15",
       "filter_set": "GTS-core_poly1-10",
       "channels":[
@@ -571,7 +571,7 @@
     {
       "ind": 7,
       "fiber": "7",
-      "delay": 10,
+      "delay": 84,
       "detectors": "S11519-15",
       "filter_set": "GTS-core_poly1-10",
       "channels":[
@@ -610,7 +610,7 @@
     {
       "ind": 8,
       "fiber": "8",
-      "delay": 10,
+      "delay": 84,
       "detectors": "S11519-15",
       "filter_set": "GTS-core_poly1-10",
       "channels":[
@@ -649,7 +649,7 @@
     {
       "ind": 9,
       "fiber": "9",
-      "delay": 10,
+      "delay": 84,
       "detectors": "S11519-15",
       "filter_set": "GTS-core_poly1-10",
       "channels":[
@@ -688,7 +688,7 @@
     {
       "ind": 10,
       "fiber": "10",
-      "delay": 10,
+      "delay": 84,
       "detectors": "S11519-15",
       "filter_set": "GTS-core_poly1-10",
       "channels":[
