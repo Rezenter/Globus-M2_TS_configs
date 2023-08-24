@@ -161,7 +161,8 @@
         "type": "DTS",
         "lens_socket_ind": 0,
         "lens_to_point": 999,
-        "scattering_angle_deg": 122
+        "scattering_angle_deg": 122,
+        "poloidal_length": 10
     },
     "2": {
         "lens_socket": 2,
@@ -169,7 +170,8 @@
         "type": "DTS",
         "lens_socket_ind": 1,
         "lens_to_point": 999,
-        "scattering_angle_deg": 118
+        "scattering_angle_deg": 118,
+        "poloidal_length": 10
     },
     "3": {
         "lens_socket": 3,
@@ -177,7 +179,8 @@
         "type": "DTS",
         "lens_socket_ind": 2,
         "lens_to_point": 999,
-        "scattering_angle_deg": 114
+        "scattering_angle_deg": 114,
+        "poloidal_length": 10
     },
     "4": {
         "lens_socket": 4,
@@ -185,7 +188,8 @@
         "type": "DTS",
         "lens_socket_ind": 3,
         "lens_to_point": 999,
-        "scattering_angle_deg": 111
+        "scattering_angle_deg": 111,
+        "poloidal_length": 10
     },
     "5": {
         "lens_socket": 5,
@@ -193,7 +197,8 @@
         "type": "DTS",
         "lens_socket_ind": 4,
         "lens_to_point": 999,
-        "scattering_angle_deg": 107
+        "scattering_angle_deg": 107,
+        "poloidal_length": 10
     },
     "6": {
         "lens_socket": 6,
@@ -201,7 +206,8 @@
         "type": "DTS",
         "lens_socket_ind": 5,
         "lens_to_point": 999,
-        "scattering_angle_deg": 104
+        "scattering_angle_deg": 104,
+        "poloidal_length": 10
     },
     "7": {
         "lens_socket": 7,
@@ -209,7 +215,8 @@
         "type": "DTS",
         "lens_socket_ind": 6,
         "lens_to_point": 999,
-        "scattering_angle_deg": 101
+        "scattering_angle_deg": 101,
+        "poloidal_length": 10
     },
     "8": {
         "lens_socket": 8,
@@ -217,7 +224,8 @@
         "type": "DTS",
         "lens_socket_ind": 7,
         "lens_to_point": 999,
-        "scattering_angle_deg": 97
+        "scattering_angle_deg": 97,
+        "poloidal_length": 10
     },
     "9": {
         "lens_socket": 9,
@@ -225,7 +233,8 @@
         "type": "DTS",
         "lens_socket_ind": 8,
         "lens_to_point": 999,
-        "scattering_angle_deg": 93
+        "scattering_angle_deg": 93,
+        "poloidal_length": 10
     },
     "Align_Bot_L": {
         "lens_socket": 16,
@@ -233,7 +242,8 @@
         "type": "alignment bottom left",
         "lens_socket_ind": 15,
         "lens_to_point": 999,
-        "scattering_angle_deg": 90
+        "scattering_angle_deg": 90,
+        "poloidal_length": 10
     },
     "Align_Bot_R": {
         "lens_socket": 14,
@@ -241,9 +251,10 @@
         "type": "alignment bottom right",
         "lens_socket_ind": 13,
         "lens_to_point": 999,
-        "scattering_angle_deg": 90
+        "scattering_angle_deg": 90,
+        "poloidal_length": 10
     }
-    },
+  },
   "laser": [
     {
       "role": "main",

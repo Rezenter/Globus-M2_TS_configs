@@ -1,0 +1,31 @@
+{
+  "type": "raman scattering calibration log",
+  "version": 1,
+  "laser_energy": 1.0,
+  "laser_frequency": 100,
+  "temperature": 23.4,
+  "polar": false,
+  "config": "2023.07.04_DIVERTOR_G10",
+  "spectral": "2023.07.05_G10_DIVERTOR",
+  "stray": {
+      "pressure": 1e-3,
+      "glob": 1e-3,
+      "shotn": [
+        850
+      ],
+      "ophir": [
+        "534475_68"
+      ]
+    },
+  "data": [
+    {
+      "pressure": 79.7,
+      "shotn": [
+        845
+      ],
+      "ophir": [
+        "534475_63"
+      ]
+    }
+  ]
+}
