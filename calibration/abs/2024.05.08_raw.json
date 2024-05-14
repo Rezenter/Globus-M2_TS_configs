@@ -1,0 +1,31 @@
+{
+  "type": "raman scattering calibration log",
+  "version": 2,
+  "laser_energy": 1.6,
+  "laser_frequency": 330,
+  "temperature": 21.2,
+  "polar": true,
+  "config": "2024.05.08_CTS_G2-10",
+  "comment": "caens 0-3 = DTS. caens 4-8 = CTS poly 1-5+central. new mirrors",
+  "spectral": "2024.05.08_CTS",
+  "stray": {
+      "pressure": 1e-2,
+      "shotn": [
+        923,
+        924,
+        925,
+        926
+      ]
+    },
+  "data": [
+    {
+      "pressure": 80.1,
+      "shotn": [
+        915,
+        916,
+        917,
+        918
+      ]
+    }
+  ]
+}

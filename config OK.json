@@ -1,0 +1,57 @@
+{
+  "crate": {
+    "caens": [
+      {
+        "link": 0,
+        "node": 0
+      },
+      {
+        "link": 1,
+        "node": 0
+      },
+      {
+        "link": 2,
+        "node": 0
+      },
+      {
+        "link": 3,
+        "node": 0
+      },
+      {
+        "link": 0,
+        "node": 1
+      },
+      {
+        "link": 1,
+        "node": 1
+      },
+      {
+        "link": 2,
+        "node": 1
+      },
+      {
+        "link": 3,
+        "node": 1
+      }
+    ]
+  },
+  "process": {
+    "threads": 8
+  },
+  "experiment": {
+    "eventCount": 0
+  },
+  "caen": {
+    "recordLength": 1024,
+    "triggerDelay": 30,
+    "frequency": "3.2",
+    "offset": 1050.0,
+    "triggerThreshold": 100.0
+  },
+  "storage": {
+    "plasmaPath": "d:/data/db/plasma/raw/",
+    "debugPath": "d:/data/db/debug/raw/",
+    "plasmaShotnPath": "z:/SHOTN.txt",
+    "debugShotnPath": "d:/data/db/debug/SHOTN.txt"
+  }
+}

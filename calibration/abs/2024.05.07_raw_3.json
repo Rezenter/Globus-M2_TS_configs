@@ -1,0 +1,24 @@
+{
+  "type": "raman scattering calibration log",
+  "version": 2,
+  "laser_energy": 1.6,
+  "laser_frequency": 330,
+  "temperature": 22.0,
+  "polar": true,
+  "config": "2023.10.12",
+  "spectral": "2023.10.06",
+  "stray": {
+      "pressure": 2e-2,
+      "shotn": [
+        879
+      ]
+    },
+  "data": [
+    {
+      "pressure": 80.4,
+      "shotn": [
+        898
+      ]
+    }
+  ]
+}
